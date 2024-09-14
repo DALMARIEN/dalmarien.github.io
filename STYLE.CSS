@@ -1,0 +1,104 @@
+/* Resetting default margins and paddings */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Logo styling */
+#logo {
+    margin: 0;
+    padding: 8px;
+    font-family: "Fredoka One", sans-serif;
+    width: 14%;
+    border-radius: 50%; /* Improved radius for a more circular shape */
+}
+
+/* Remove list default styles */
+ul {
+    margin: 0;
+    padding: 0; /* Added to remove default padding */
+    list-style: none; /* Ensure list bullets are removed */
+}
+
+/* Header styling */
+body > header {
+    background-color: orange;
+    color: white;
+    display: flex;
+    height: 12vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Navigation list styling */
+body > header > nav > ul {
+    display: flex;
+}
+
+/* Navigation items */
+#nav-ul > li {
+    margin: 16px;
+    padding: 8px;
+}
+
+.navbutton {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 10%;
+}
+
+/* Main content styling */
+body > main article {
+    width: 70%;
+    margin: auto;
+}
+#main-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#main-content > div {
+    width: 80%;
+} 
+/* Form styling */
+form {
+    text-align: center;
+}
+
+/* Footer section */
+footer > section {
+    background-color: orange;
+    display: flex;
+    justify-content: flex-end; /* Aligns all items to the right */
+    align-items: center; /* Vertically centers items */
+    padding: 20px; /* Optional: adds padding for better spacing */
+}
+
+/* Center-align all h2 elements */
+h2 {
+    text-align: center;
+}
+
+/* Image styling */
+img {
+    border-radius: 50%;
+}
+
+#footer-ul{
+    display: flex;
+    list-style: none;
+
+}
+#footer-ul > div > li {
+    margin-left: 12px;
+   
+
+}
+#footer-ul > div > li > a {
+    color: white;
+    text-decoration: none;
+}
